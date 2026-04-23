@@ -1,0 +1,27 @@
+# AutoStream AI Agent – Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# LangChain core
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+
+# LangGraph – state machine / agent orchestration
+langgraph>=0.1.19
+
+# OpenAI LLM
+openai>=1.0.0
+
+# Vector store for RAG
+chromadb>=0.4.24
+
+# Local embeddings (no API key needed)
+sentence-transformers>=2.7.0
+
+# Environment variable management
+python-dotenv>=1.0.1
+
+# Web framework for frontend
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
